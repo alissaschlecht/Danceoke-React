@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+/*.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}*/
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.videoContainer {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.videoRow {
+  margin-top: 20px;
+}
+
+.videoRow>div {
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+  height: 15vw;
+}
+
+
+
+/*@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}*/
