@@ -1,21 +1,25 @@
 import React, { Component } from 'react';
-
 import '../stylesheets/App.css';
 import Video from './Video';
+import { Layout } from 'antd';
+const { Header, Sider, Content } = Layout;
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <h2>Title</h2>
-        </div>
-        <div className='videoContainer'>
-          <Video />
-          <Video />
-          <Video />
-        </div>
-      </div>
+    <Layout>
+      <Header>Header</Header>
+      <Layout>
+        <Sider>Sider</Sider>
+        <Content>
+          <div>
+            <Video />
+            <Video />
+            <Video />
+          </div>
+        </Content>
+      </Layout>
+    </Layout>
     );
   }
 }
