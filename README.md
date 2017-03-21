@@ -1,1 +1,1 @@
-This project is version 2 of Danceoke, built with React.
+This project is version 2 of Danceoke, built with React.js. 
