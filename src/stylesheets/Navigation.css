@@ -1,0 +1,30 @@
+.customNav.navbar {
+  min-height: 80px;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  box-shadow: none; 
+  padding-top: 15px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #000 !important;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.nav-transparent {
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  box-shadow: none; 
+}
+
+.navbar-solid {
+  background-color: rgba(0,0,0,.4) !important;
+}
+
+#something {
+  margin-top: 100px;
+}

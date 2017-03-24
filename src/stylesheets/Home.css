@@ -1,0 +1,30 @@
+.homeTitle {
+  text-align: center;
+  font-size: 75px;
+  padding-top: 100px;
+}
+
+.homeSubTitle {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+
+form.searchVideos {
+  text-align: center;
+}
+
+form.searchVideos .form-control {
+  margin: 0 auto;
+  height: 50px;
+  width: 60%;
+}
+
+form.searchVideos .btn{
+	width: 150px;
+	height: 50px;
+	border-radius: 20px;
+	background-color: #eee;
+	background-image: none;
+	border: 3px solid #000;
+}
